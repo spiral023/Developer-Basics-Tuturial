@@ -4,7 +4,7 @@
 Diese Sammlung enthält eine Übersicht von Python-Skripten, die verschiedene Pakete entsprechend ihrer Funktionalität nutzen, um effiziente und praxisorientierte Lösungen zu entwickeln. Die Pakete sind nach ihren Anwendungsbereichen gruppiert, um eine klare Struktur und schnellen Zugriff zu ermöglichen. Die Kategorien umfassen: Allgemeine Pakete, Visualisierung, Maschinelles Lernen & NLP, Web-Frameworks, Hilfsbibliotheken, Dateiverarbeitung, Weitere Pakete, Interaktives Computing und Datenbank.
 
 ## Kategorienübersicht
-- **Allgemeine Pakete**: Grundlegende Bibliotheken für verschiedene Aufgaben.
+- **Caching**: Tools zur Zwischenspeicherung von Daten.- **Allgemeine Pakete**: Grundlegende Bibliotheken für verschiedene Aufgaben.
 - **Visualisierung**: Tools zur Darstellung und Analyse von Daten.
 - **Maschinelles Lernen & NLP**: Bibliotheken für maschinelles Lernen und natürliche Sprachverarbeitung.
 - **Web-Frameworks**: Frameworks zur Erstellung von Webanwendungen.
@@ -16,6 +16,11 @@ Diese Sammlung enthält eine Übersicht von Python-Skripten, die verschiedene Pa
 
 ## Genutzte Pakete und ihre Funktionen
 
+### Caching
+- **requests-cache**: Erweiterung für requests zum Caching von HTTP-Anfragen.
+- **redis**: In-Memory-Datenbank, die oft als Caching-Lösung verwendet wird. Unterstützt schnelle Datenzugriffe.
+- **pymemcache**: Python-Client für Memcached, nützlich für verteiltes Caching.
+- **DiskCache**: Caching-Tool, das das Dateisystem zur Speicherung verwendet und einfach in Python integriert werden kann.
 ### Allgemeine Pakete
 - **ollama**: Lokales Language Model (LLM) basierend auf dem Llama3.1-Modell.
 - **pandas**: Flexible und leistungsstarke Bibliothek zur Datenanalyse und -manipulation. Häufig verwendet zur Bereinigung, Analyse und Visualisierung von Daten.
@@ -75,6 +80,62 @@ Diese Sammlung enthält eine Übersicht von Python-Skripten, die verschiedene Pa
 
 ### Datenbank
 - **SQLAlchemy**: Leistungsstarkes Toolkit für den Umgang mit Datenbanken in Python, unterstützt objekt-relationales Mapping (ORM).
+- **postgresql**: Relationale Datenbank für interaktive Computing-Aufgaben.
+- **sqlite**: Eingebettete SQL-Datenbank, ideal für kleinere Anwendungen und schnelles Prototyping.
+
+## requirements.txt
+
+Die folgende requirements.txt listet alle genannten Pakete auf. Es wird jedoch nicht empfohlen, alle Pakete gleichzeitig zu installieren, da sie möglicherweise nicht alle für Ihr spezifisches Projekt benötigt werden und zu Konflikten führen könnten.
+
+```
+ollama
+pandas
+numpy
+scipy
+pandas-ta
+PyPortfolioOpt
+scikit-learn
+statsmodels
+matplotlib
+seaborn
+plotly
+altair
+tensorflow
+pytorch
+torchvision
+transformers
+spacy
+textblob
+flask
+fastapi
+requests
+requests-cache
+dateutil
+PyYAML
+tqdm
+tenacity
+loguru
+Click
+humanfriendly
+rich
+XlsxWriter
+xlwings
+PyPDF2
+fonttools
+pytube
+youtube-transcript-api
+yfinance
+cinemagoer
+jupyter
+prompt-toolkit
+crawl4ai
+SQLAlchemy
+redis
+pymemcache
+DiskCache
+psycopg2-binary
+sqlite3
+```
 
 ## Wichtiger Hinweis
 > **Achtung**: Dieser Code wurde teilweise mithilfe einer KI erstellt. Der Ersteller ist kein professioneller Programmierer, daher kann der Code unfertig oder fehlerhaft sein und logische Lücken aufweisen. Bitte verwenden Sie diesen Code mit Vorsicht und testen Sie ihn gründlich, bevor Sie ihn in produktiven Umgebungen einsetzen.
