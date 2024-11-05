@@ -1,10 +1,14 @@
-# Python-Skripte auf einem Windows-Rechner sauber laufen lassen
+# Einführung in Python-Skripte für Windows-Anwender
+
+In dieser Anleitung erfährst du, wie du **Python-Skripte auf einem Windows-Rechner** sauber und ohne Probleme zum Laufen bringst. Dabei werden wichtige Grundlagen behandelt, wie die Installation von **Python**, **Conda** und **Git**, das Einrichten **virtueller Python Umgebungen**, die Verwendung von **.env-Dateien** zur Verwaltung sensibler Daten und die grundlegende Nutzung von typischen Python-Bibliotheken.
+
+Außerdem bekommst du hilfreiche Tipps zum Arbeiten mit der **Windows-Eingabeaufforderung**, **Visual Studio Code**, **GitHub Desktop** sowie den Tools **wget** und **curl**. Die Anleitung zeigt dir auch, wie du deine Python-Projekte strukturiert organisierst und **Abhängigkeiten** sauber verwaltest, um deine Arbeitsweise effizienter und professioneller zu gestalten.
+
+Diese **Schritt-für-Schritt-Anleitung** richtet sich vor allem an **Anfänger und Hobbyentwickler**, die Python in ihrer Windows-Umgebung nutzen möchten. Mit dem vermittelten Wissen bist du in der Lage, eigene (sehr einfache) Python-Skripte zu schreiben, sicher und strukturiert zu entwickeln und in einem klaren Projektaufbau zu arbeiten.
+
+## Python-Skripte auf einem Windows-Rechner sauber laufen lassen
 
 Um Python-Skripte auf einem Windows-Rechner sauber und ohne Probleme laufen zu lassen, kannst du Python mit Conda oder `venv` und `.env`-Dateien verwenden. Hier ist eine Schritt-für-Schritt-Anleitung:
-
-## Einführung in Python-Skripte für Windows-Anwender
-
-Willkommen! Diese Anleitung hilft dir dabei, Python-Skripte unter Windows auszuführen und zu verstehen. Python ist eine vielseitige Programmiersprache, die sich hervorragend zum Lösen von Aufgaben und Automatisieren von Prozessen eignet. Diese Einführung richtet sich besonders an absolute Anfänger, die noch keine Erfahrung mit der Installation und Verwendung von Python haben.
 
 ## 1. Installation von Python, Conda und Git
 
@@ -87,7 +91,7 @@ git --version
 
 ## 3. Verwendung von .env-Dateien
 
-- **Erstellen einer .env-Datei**: Lege eine `.env`-Datei im Hauptverzeichnis deines Projekts an, um Umgebungsvariablen zu speichern.
+- **Erstellen einer .env-Datei**: Lege eine `.env`-Datei im Hauptverzeichnis deines Projekts an, um Umgebungsvariablen zu speichern. Ein Beispiel wäre ein API-Key für OpenAI um mit deren Large Language Models zu kommunizieren. Dieser API-Key darf nicht öffentlich bekannt werden, da jeder dann kostenpflichtig mit deinem API Key arbeiten könnte.
 
   Beispiel `.env`-Datei:
 
@@ -425,7 +429,12 @@ Die Datei `.gitattributes` wird verwendet, um Einstellungen für die Verwaltung 
    ```
 3. Die `.gitattributes`-Datei hilft dabei, Inkonsistenzen in der Versionskontrolle zu vermeiden und sorgt für einheitliche Einstellungen über verschiedene Systeme hinweg.
 
-## 15. Abschluss
+
+## 15. Python Coding Basics
+
+In Arbeit unter: [Python Coding Basics](https://github.com/spiral023/dev-tutorial/blob/main/python_coding.md)
+
+## 16. Abschluss
 
 Viel Spaß beim Programmieren! Wenn du Fragen hast, zögere nicht, Hilfe zu suchen oder die Python-Community zu konsultieren. Du kannst auch weiterführende Projekte erkunden, um deine Fähigkeiten zu verbessern und noch mehr über Python zu lernen. Bleib neugierig und probiere neue Dinge aus!
 
